@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap');
+
+.noticias {
+    background-color: #f9f9f9;
+    padding: 20px;
+  }
+  
+  .noticias h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .noticias .contenedor {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    margin-bottom: 20px;
+  }
+  
+  .noticias .noticia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .noticias .noticia:last-child {
+    margin-right: 0;
+  }
+  
+  .noticias .noticia img {
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .noticias .noticia h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .noticias .noticia p {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  
+  IMG{
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+  }
+  .titulo{
+    color: black;
+    font-weight: 200;
+    font-size: 30px;
+    text-transform:none;
+    display: block;
+  }
+  .text{
+    text-align: justify;
+    color: rgb(47, 81, 192);
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+  }
